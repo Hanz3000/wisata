@@ -21,7 +21,7 @@ class Daftar_Menu : AppCompatActivity() {
         var list = mutableListOf<List_Menu>()
 
         list.add(List_Menu("Gunung Bromo", "Lokasi : Malang", R.drawable.bromo, 4.0))
-        list.add(List_Menu("Kopi Pandan", "Rp 25.000", R.drawable.kopipandan, 3.5))
+        list.add(List_Menu("Pantai Klayar", "Lokasi : Pacitan", R.drawable.pantai_klayar, 3.5))
         list.add(List_Menu("Kopi Milo", "Rp 25.000", R.drawable.kopimilo, 4.0))
         list.add(List_Menu("Hazelnut Latte", "Rp 35.000", R.drawable.hazelnut, 4.5))
         list.add(List_Menu("Caramel Latte", "Rp 35.000", R.drawable.caramel, 5.0))
