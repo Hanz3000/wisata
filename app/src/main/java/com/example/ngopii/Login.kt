@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 
 class Login : AppCompatActivity() {
@@ -21,14 +20,23 @@ class Login : AppCompatActivity() {
         val password = findViewById<EditText>(R.id.password)
         val button_login = findViewById<Button>(R.id.button_login)
 
+        // Tentukan username dan password yang diinginkan
+        val desiredUsername = "kelompok8"
+        val desiredPassword = "kelompok8"
+
         button_login.setOnClickListener {
-            // intent digunakan untuk memanggil / menampilkan activity baru
-            val inten = Intent( this,Daftar_Menu::class.java)
-            startActivity(inten)
-            Toast.makeText(this, "Anda berhasil login", Toast.LENGTH_SHORT).show()
+            val inputUsername = username.text.toString()
+            val inputPassword = password.text.toString()
+
+            // Periksa apakah username dan password sesuai dengan yang diinginkan
+            if (inputUsername == desiredUsername && inputPassword == desiredPassword) {
+                // intent digunakan untuk memanggil / menampilkan activity baru
+                val intent = Intent(this, Daftar_Menu::class.java)
+                startActivity(intent)
+                Toast.makeText(this, "Anda berhasil login", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Username atau password salah", Toast.LENGTH_SHORT).show()
+            }
         }
-
-
-
     }
 }

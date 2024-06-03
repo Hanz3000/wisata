@@ -4,8 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
-import android.widget.SearchView
-import android.widget.Toast
 
 class Daftar_Menu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,92 +11,45 @@ class Daftar_Menu : AppCompatActivity() {
         setContentView(R.layout.activity_daftar_menu)
 
         val bar = supportActionBar
-        bar!!.title = "DAFTAR MENU Ngopii"
+        bar!!.title = "Wisata Jawa Timur"
         bar.setDisplayHomeAsUpEnabled(true)
 
         var listView = findViewById<ListView>(R.id.listview)
-        val cari_menu = findViewById<SearchView>(R.id.cari_menu)
         var list = mutableListOf<List_Menu>()
 
         list.add(List_Menu("Gunung Bromo", "Lokasi : Malang", R.drawable.bromo, 4.0))
         list.add(List_Menu("Pantai Klayar", "Lokasi : Pacitan", R.drawable.pantai_klayar, 3.5))
-        list.add(List_Menu("Kopi Milo", "Rp 25.000", R.drawable.kopimilo, 4.0))
-        list.add(List_Menu("Hazelnut Latte", "Rp 35.000", R.drawable.hazelnut, 4.5))
-        list.add(List_Menu("Caramel Latte", "Rp 35.000", R.drawable.caramel, 5.0))
-        list.add(List_Menu("Vanila Latte", "Rp 35.000", R.drawable.vanila, 4.5))
-        list.add(List_Menu("Latte", "Rp 30.000", R.drawable.latte, 5.0))
-        list.add(List_Menu("Americano", "Rp 20.000", R.drawable.americano, 4.0))
-        list.add(List_Menu("Mochacino", "Rp 35.000", R.drawable.mochacino, 4.0))
-        list.add(List_Menu("Matcha", "Rp 35.000", R.drawable.matcha, 4.5))
+        list.add(List_Menu("Kawah Ijen", "Lokasi : Banyuwangi", R.drawable.kawahijen, 4.0))
+        list.add(List_Menu("Tumpak Sewu", "Lokasi : Lumajang", R.drawable.tumpaksewu, 4.5))
+        list.add(List_Menu("Jatim Park 1", "Lokasi : Batu", R.drawable.jatimpark, 5.0))
 
         listView.adapter = List_MenuAdapter(this, R.layout.activity_listview, list)
 
-//        listView.setOnItemClickListener { adapterView, view, i, l ->
-//            when (i) {
-//                0 -> Toast.makeText(this, "Kamu memilih Kopi Susu", Toast.LENGTH_LONG).show()
-//                1 -> Toast.makeText(this, "Kamu memilih Kopi Pandan", Toast.LENGTH_LONG).show()
-//                2 -> Toast.makeText(this, "Kamu memilih Kopi Milo", Toast.LENGTH_LONG).show()
-//                3 -> Toast.makeText(this, "Kamu memilih Hazelnut Latte", Toast.LENGTH_LONG).show()
-//                4 -> Toast.makeText(this, "Kamu memilih Caramel Latte", Toast.LENGTH_LONG).show()
-//                5 -> Toast.makeText(this, "Kamu memilih Vanila Latte", Toast.LENGTH_LONG).show()
-//                6 -> Toast.makeText(this, "Kamu memilih Latte", Toast.LENGTH_LONG).show()
-//                7 -> Toast.makeText(this, "Kamu memilih Americano", Toast.LENGTH_LONG).show()
-//                8 -> Toast.makeText(this, "Kamu memilih Mochacino", Toast.LENGTH_LONG).show()
-//                9 -> Toast.makeText(this, "Kamu memilih Matcha", Toast.LENGTH_LONG).show()
-//            }
-//        }
+//
 
         listView.setOnItemClickListener { adapterView, view, i, l ->
             when (i) {
                 0 -> {
-                    val inten = Intent( this,KopiSusu::class.java)
+                    val inten = Intent( this,Bromo::class.java)
                     startActivity(inten)
                 }
                 1 -> {
-                    val inten = Intent( this,KopiPandan::class.java)
+                    val inten = Intent( this,PantaiKlayar::class.java)
                     startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Kopi Pandan", Toast.LENGTH_LONG).show()
                 }
                 2 -> {
-                    val inten = Intent( this,KopiMilo::class.java)
+                    val inten = Intent( this,KawahIjen::class.java)
                     startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Kopi Milo", Toast.LENGTH_LONG).show()
                 }
                 3 -> {
-                    val inten = Intent( this,HazelnutLatte::class.java)
+                    val inten = Intent( this,TumpakSewu::class.java)
                     startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Hazelnut Latte", Toast.LENGTH_LONG).show()
                 }
                 4 -> {
-                    val inten = Intent( this,CaramelLatte::class.java)
+                    val inten = Intent( this,JatimPark::class.java)
                     startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Caramel Latte", Toast.LENGTH_LONG).show()
                 }
-                5 -> {
-                    val inten = Intent( this,VanilaLatte::class.java)
-                    startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Vanila Latte", Toast.LENGTH_LONG).show()
-                }
-                6 -> {
-                    val inten = Intent( this,Latte::class.java)
-                    startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Latte", Toast.LENGTH_LONG).show()
-                }
-                7 -> {
-                    val inten = Intent( this,Americano::class.java)
-                    startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Americano", Toast.LENGTH_LONG).show()
-                }
-                8 -> {
-                    val inten = Intent( this,Mochacino::class.java)
-                    startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Mochacino", Toast.LENGTH_LONG).show()
-                }
-                9 -> {
-                    val inten = Intent( this,Matcha::class.java)
-                    startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Matcha", Toast.LENGTH_LONG).show()
-                }
+
             }
         }
     }

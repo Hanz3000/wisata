@@ -13,56 +13,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ngopii"
         tools:targetApi="31">
+
         <activity
-            android:name=".Berhasil_regis"
+            android:name=".JatimPark"
             android:exported="false" />
         <activity
-            android:name=".Data_Pelanggan"
+            android:name=".TumpakSewu"
             android:exported="false" />
         <activity
-            android:name=".Keranjang"
+            android:name=".PantaiKlayar"
             android:exported="false" />
         <activity
-            android:name=".Americano"
+            android:name=".KawahIjen"
             android:exported="false" />
         <activity
-            android:name=".Mochacino"
-            android:exported="false" />
-        <activity
-            android:name=".Matcha"
-            android:exported="false" />
-        <activity
-            android:name=".VanilaLatte"
-            android:exported="false" />
-        <activity
-            android:name=".Latte"
-            android:exported="false" />
-        <activity
-            android:name=".CaramelLatte"
-            android:exported="false" />
-        <activity
-            android:name=".HazelnutLatte"
-            android:exported="false" />
-        <activity
-            android:name=".KopiPandan"
-            android:exported="false" />
-        <activity
-            android:name=".KopiMilo"
-            android:exported="false" />
-        <activity
-            android:name=".KopiSusu"
+            android:name=".Bromo"
             android:exported="false" />
         <activity
             android:name=".Daftar_Menu"
             android:exported="false" />
         <activity
-            android:name=".Activity_tiga"
-            android:exported="false" />
-        <activity
             android:name=".Login"
-            android:exported="false" />
-        <activity
-            android:name=".Register"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

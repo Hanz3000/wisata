@@ -2,15 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/menu_satu"
-        android:title="Daftar Menu"
-        app:showAsAction="never" />
-
-    <item android:id="@+id/menu_dua"
-        android:title="Data Pelanggan"
-        app:showAsAction="never" />
-
-    <item android:id="@+id/menu_tiga"
-        android:title="Data Transaksi Pelanggan"
+        android:title="Daftar Wisata"
         app:showAsAction="never" />
 
     <item android:id="@+id/menu_empat"

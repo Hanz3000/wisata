@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ngopii</string>
+    <string name="app_name">Aplikasi Wisata</string>
     <string name="tombol_order">ORDER</string>
     <string name="tombol_nextorder">NEXT</string>
     <string name="tombol_ok">OK</string>
@@ -15,11 +15,5 @@
         <item> Taro Latte      --  Rp 30.000,- </item>
         <item> Milo Machiato   --  Rp 35.000,- </item>
     </string-array>
-    <string name="nama_lengkap">Nama :</string>
-    <string name="no_hp">No. Handphone :</string>
-    <string name="alamat">Alamat :</string>
-    <string name="jk">Jenis Kelamin : </string>
-    <string name="laki_laki">Laki - Laki</string>
-    <string name="perempuan">Perempuan</string>
-    <string name="to_regis">REGISTER</string>
+
 </resources>

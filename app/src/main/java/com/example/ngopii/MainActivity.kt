@@ -40,10 +40,7 @@ class MainActivity : AppCompatActivity() {
                 val inten = Intent( this, Daftar_Menu::class.java)
                 startActivity(inten)
             }
-            R.id.menu_dua -> {
-                val inten = Intent( this, Data_Pelanggan::class.java)
-                startActivity(inten)
-            }
+
         }
 
         return super.onOptionsItemSelected(item)
