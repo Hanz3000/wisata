@@ -14,26 +14,8 @@ class KopiSusu : AppCompatActivity() {
         setContentView(R.layout.activity_kopi_susu)
 
         val bar = supportActionBar
-        bar!!.title = "Kopi Susu"
+        bar!!.title = "Gunung Bromo"
         bar.setDisplayHomeAsUpEnabled(true)
 
-        val button_keranjang = findViewById<Button>(R.id.button_keranjang)
-        val total_harga = findViewById<TextView>(R.id.total_harga)
-        val jumlah = findViewById<EditText>(R.id.kuantitas)
-
-        fun main(args: Array<String>){
-            val jumlah: Int=0
-            val harga: Int = 20000
-            val total_harga: Int = jumlah.times(harga)
-
-//            println("$total_harga")
-        }
-        total_harga.text = " $total_harga"
-
-        button_keranjang.setOnClickListener {
-            val inten = Intent( this,Keranjang::class.java)
-            startActivity(inten)
-            Toast.makeText(this, "Pesanan Anda akan di proses", Toast.LENGTH_LONG).show()
-        }
     }
 }

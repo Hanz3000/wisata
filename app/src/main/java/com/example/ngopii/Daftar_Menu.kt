@@ -20,7 +20,7 @@ class Daftar_Menu : AppCompatActivity() {
         val cari_menu = findViewById<SearchView>(R.id.cari_menu)
         var list = mutableListOf<List_Menu>()
 
-        list.add(List_Menu("Kopi Susu", "Rp 20.000", R.drawable.kopisusu, 4.0))
+        list.add(List_Menu("Gunung Bromo", "Lokasi : Malang", R.drawable.bromo, 4.0))
         list.add(List_Menu("Kopi Pandan", "Rp 25.000", R.drawable.kopipandan, 3.5))
         list.add(List_Menu("Kopi Milo", "Rp 25.000", R.drawable.kopimilo, 4.0))
         list.add(List_Menu("Hazelnut Latte", "Rp 35.000", R.drawable.hazelnut, 4.5))
@@ -53,7 +53,6 @@ class Daftar_Menu : AppCompatActivity() {
                 0 -> {
                     val inten = Intent( this,KopiSusu::class.java)
                     startActivity(inten)
-                    Toast.makeText(this, "Kamu memilih Kopi Susu", Toast.LENGTH_LONG).show()
                 }
                 1 -> {
                     val inten = Intent( this,KopiPandan::class.java)

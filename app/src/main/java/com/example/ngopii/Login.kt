@@ -20,7 +20,6 @@ class Login : AppCompatActivity() {
         val username = findViewById<EditText>(R.id.username)
         val password = findViewById<EditText>(R.id.password)
         val button_login = findViewById<Button>(R.id.button_login)
-        val to_regis = findViewById<TextView>(R.id.to_regis)
 
         button_login.setOnClickListener {
             // intent digunakan untuk memanggil / menampilkan activity baru
@@ -29,9 +28,7 @@ class Login : AppCompatActivity() {
             Toast.makeText(this, "Anda berhasil login", Toast.LENGTH_SHORT).show()
         }
 
-        to_regis.setOnClickListener {
-            val inten = Intent( this,Register::class.java)
-            startActivity(inten)
-        }
+
+
     }
 }
