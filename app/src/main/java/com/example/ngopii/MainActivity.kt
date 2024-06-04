@@ -8,6 +8,7 @@ import android.view.MenuItem
 import android.widget.Button
 import android.widget.TextView
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,9 +38,15 @@ class MainActivity : AppCompatActivity() {
         when(id){ // ini switch case jika di php
             R.id.menu_satu -> {
                 // blok program satu yang akan dieksekusi
-                val inten = Intent( this, Daftar_Menu::class.java)
+                val inten = Intent( this, Login::class.java)
                 startActivity(inten)
             }
+            R.id.menu_empat -> {
+                // blok program satu yang akan dieksekusi
+                val inten = Intent( this, AboutUs::class.java)
+                startActivity(inten)
+            }
+
 
         }
 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang Kami"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat datang di situs resmi Wisata Jawa Timur, platform informasi lengkap tentang destinasi wisata terbaik di Jawa Timur. Kami berdedikasi untuk memberikan panduan dan inspirasi bagi para wisatawan yang ingin mengeksplorasi keindahan dan keunikan provinsi Jawa Timur."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvMissionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Misi Kami"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvMissionContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kami berkomitmen untuk mempromosikan pariwisata Jawa Timur dengan menyediakan informasi akurat, terkini, dan bermanfaat mengenai tempat-tempat wisata, budaya, kuliner, dan aktivitas menarik lainnya. Melalui situs ini, kami berharap dapat membantu wisatawan dalam merencanakan perjalanan yang tak terlupakan di Jawa Timur."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvOfferTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apa yang Kami Tawarkan"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvOfferContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Panduan Destinasi: Ulasan mendalam tentang berbagai destinasi wisata, mulai dari pantai yang menakjubkan, pegunungan yang memukau, hingga situs bersejarah yang kaya akan nilai budaya.\n2. Rute Perjalanan: Rekomendasi rute perjalanan yang efisien dan menarik untuk membantu wisatawan mengoptimalkan waktu dan pengalaman selama di Jawa Timur.\n3. Kegiatan dan Aktivitas: Informasi tentang berbagai kegiatan dan aktivitas seru yang bisa dilakukan di Jawa Timur, seperti mendaki, snorkeling, wisata kuliner, dan banyak lagi.\n4. Event dan Festival: Update tentang acara dan festival lokal yang unik dan penuh warna, yang dapat menambah keseruan kunjungan Anda.\n5. Tips dan Trik: Saran praktis dan tips perjalanan untuk memastikan pengalaman wisata Anda berjalan lancar dan menyenangkan."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvWhyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mengapa Memilih Wisata Jawa Timur?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvWhyContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informasi Terpercaya: Kami bekerja sama dengan berbagai pihak lokal dan sumber terpercaya untuk memastikan informasi yang kami berikan akurat dan bermanfaat.\nKomunitas Wisata: Bergabunglah dengan komunitas wisata kami untuk berbagi pengalaman, tips, dan cerita perjalanan dengan sesama pengunjung.\nDukungan Pelanggan: Tim kami siap membantu menjawab pertanyaan dan memberikan rekomendasi terbaik untuk perjalanan Anda."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvContactTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubungi Kami"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvContactContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jika Anda memiliki pertanyaan, saran, atau ingin berbagi pengalaman wisata Anda di Jawa Timur, jangan ragu untuk menghubungi kami melalui email atau formulir kontak yang tersedia di situs kami."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvClosing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat berpetualang di Jawa Timur, dan semoga perjalanan Anda penuh dengan kenangan indah!"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+    </LinearLayout>
+</ScrollView>
