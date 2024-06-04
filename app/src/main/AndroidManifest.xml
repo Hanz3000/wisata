@@ -27,8 +27,9 @@
             android:name=".KawahIjen"
             android:exported="false" />
         <activity
-            android:name=".Bromo"
-            android:exported="false" />
+            android:name=".GunungBromo"
+            android:exported="false"
+            tools:ignore="MissingClass" />
         <activity
             android:name=".Daftar_Menu"
             android:exported="false" />
