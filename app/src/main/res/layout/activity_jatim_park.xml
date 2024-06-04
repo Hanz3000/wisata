@@ -8,11 +8,9 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="396dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginBottom="338dp"
-        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="# Jatim Park 1"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -23,32 +21,26 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="368dp"
-        android:layout_height="249dp"
-        android:layout_marginBottom="427dp"
-        android:layout_weight="1"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintDimensionRatio="H,16:9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/jatimpark" />
+
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="364dp"
-        android:layout_height="406dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginEnd="17dp"
-        android:text="Jatim Park 1 merupakan tempat rekreasi yang dibangun pertama kali oleh Jatim Park. Tempat wisata ini memiliki konsep taman bermain yang dipadukan dengan taman edukasi.Bila membahas tentang wisata di Jawa Timur pasti tidak bisa lepas dari Jatim Park. Jatim Park yang terletak di Kota Batu ini menjadi destinasi favorit keluarga yang sangat lengkap. Tidak hanya itu, udara yang sejuk membuat pengunjung betah untuk memilih destinasi ini, terutama saat liburan panjang sekolah. Kali ini, Wonderful Images akan membahasa mengenai Jatim Park 1. Taman rekreasi yang dibangun pertama kali oleh Jatim Park ini memiliki konsep taman bermain yang dipadukan dengan taman edukasi.
-Pengunjung juga bisa belajar banyak hal di sini, seperti belajar sains di Science Center, belajar sejarah lewat diorama di Taman Sejarah, belajar anatomi tubuh di Museum Tubuh The Bagong Adventure, serta belajar budaya Indonesia di Indonesia Heritage Museum dan Galeri Etnik. Jatim Park 1 juga memilikio banyak wahana seru untuk anak-anak hingga orang dewasa. Anak-anak bisa mencoba wahana Mini Train, Happy Boat, Convoy Car, Ulat Coaster, dan Froggy. Sementara untuk orang dewasa, terdapat berbagai wahana yang menguji adrenalin. Seperti Pendulum, Gold Mining Coaster, Flying Tornado, Enterprise Ride, dan Gyroscope."
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:text="Jatim Park 1 merupakan tempat rekreasi yang dibangun pertama kali oleh Jatim Park. Tempat wisata ini memiliki konsep taman bermain yang dipadukan dengan taman edukasi. Bila membahas tentang wisata di Jawa Timur pasti tidak bisa lepas dari Jatim Park. Jatim Park yang terletak di Kota Batu ini menjadi destinasi favorit keluarga yang sangat lengkap. Tidak hanya itu, udara yang sejuk membuat pengunjung betah untuk memilih destinasi ini, terutama saat liburan panjang sekolah. Kali ini, Wonderful Images akan membahasa mengenai Jatim Park 1. Taman rekreasi yang dibangun pertama kali oleh Jatim Park ini memiliki konsep taman bermain yang dipadukan dengan taman edukasi. Pengunjung juga bisa belajar banyak hal di sini, seperti belajar sains di Science Center, belajar sejarah lewat diorama di Taman Sejarah, belajar anatomi tubuh di Museum Tubuh The Bagong Adventure, serta belajar budaya Indonesia di Indonesia Heritage Museum dan Galeri Etnik. Jatim Park 1 juga memiliki banyak wahana seru untuk anak-anak hingga orang dewasa. Anak-anak bisa mencoba wahana Mini Train, Happy Boat, Convoy Car, Ulat Coaster, dan Froggy. "
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.692"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.923" />
-
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

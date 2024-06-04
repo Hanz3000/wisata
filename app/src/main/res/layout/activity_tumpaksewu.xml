@@ -8,11 +8,9 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="396dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginBottom="338dp"
-        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="# Air Terjun Tumpak Sewu"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -23,33 +21,25 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="339dp"
-        android:layout_height="240dp"
-        android:layout_marginBottom="427dp"
-        android:layout_weight="1"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintDimensionRatio="H,16:9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/tumpaksewu" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="370dp"
-        android:layout_height="363dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginEnd="17dp"
-        android:text="Air Terjun Tumpak Sewu Semeru atau yang kita kenal dengan sebutan Tebing Nirwana adalah obyek wisata yang terletak di Desa Wisata Sidomulyo Kec. Pronojiwo Kabupaten Lumajang yang berjarak   47 km arah selatan dai pusat kota Lumajang yang memiliki eksotika air terjun yang luar biasa, obyek ini berdekatan dengan letak obyek wisata Goa Tetes.
-Wisatawan akan dimanjakan dengan pemandangan dan eksotika air terjun yang menakjubkan dan memiliki sumber mata air alam dari Gunung Semeru. Nama Tumpak Sewu sendiri memiliki arti air terjun yang bertumpuk-tumpuk, maksudnya adalah bahwa Air Terjun Tumpak Sewu Semeru adalah gabungan dari banyaknya air terjun yang ada sehingga sangat menakjubkan.
-Adapun Fasilitas yang ada di dalam obyek wisata meliputi, Pakir, Toilet,Pusat Informasi,Layanan Kesehatan,Rest Area,Mushola,Rumah Makan,Pusat Perbelanjaan,Homestay, Ojek Wisata,Jaringan Handphone,Tempat Sampah,Petunjuk Arah."
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:text="Air Terjun Tumpak Sewu Semeru atau yang kita kenal dengan sebutan Tebing Nirwana adalah obyek wisata yang terletak di Desa Wisata Sidomulyo Kec. Pronojiwo Kabupaten Lumajang yang berjarak 47 km arah selatan dari pusat kota Lumajang yang memiliki eksotika air terjun yang luar biasa, obyek ini berdekatan dengan letak obyek wisata Goa Tetes. Wisatawan akan dimanjakan dengan pemandangan dan eksotika air terjun yang menakjubkan dan memiliki sumber mata air alam dari Gunung Semeru. Nama Tumpak Sewu sendiri memiliki arti air terjun yang bertumpuk-tumpuk, maksudnya adalah bahwa Air Terjun Tumpak Sewu Semeru adalah gabungan dari banyaknya air terjun yang ada sehingga sangat menakjubkan. Adapun Fasilitas yang ada di dalam obyek wisata meliputi, Pakir, Toilet, Pusat Informasi, Layanan Kesehatan, Rest Area, Mushola, Rumah Makan, Pusat Perbelanjaan, Homestay, Ojek Wisata, Jaringan Handphone, Tempat Sampah, Petunjuk Arah."
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:layout_constraintVertical_bias="0.852" />
-
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
