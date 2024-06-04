@@ -27,7 +27,7 @@
             android:name=".KawahIjen"
             android:exported="false" />
         <activity
-            android:name=".GunungBromo"
+            android:name=".Bromo"
             android:exported="false"
             tools:ignore="MissingClass" />
         <activity
