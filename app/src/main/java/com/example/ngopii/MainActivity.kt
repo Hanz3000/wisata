@@ -7,9 +7,11 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.TextView
+import com.example.ngopii.databinding.ActivityGunungbromoBinding
 
 
 class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityGunungbromoBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -24,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             val inten = Intent( this,Login::class.java)
             startActivity(inten)
         }
+        binding.imageView4
 
     }
 

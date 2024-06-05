@@ -13,7 +13,7 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         val bar = supportActionBar
-        bar!!.title = "Ngopii"
+        bar!!.title = "Aplikasi Wisata Kewww Kewww"
         bar.setDisplayHomeAsUpEnabled(true)
 
         val username = findViewById<EditText>(R.id.username)
@@ -22,7 +22,7 @@ class Login : AppCompatActivity() {
 
         // Tentukan username dan password yang diinginkan
         val desiredUsername = "kelompok8"
-        val desiredPassword = "kelompok8"
+        val desiredPassword = "12345"
 
         button_login.setOnClickListener {
             val inputUsername = username.text.toString()
